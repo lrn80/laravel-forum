@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="83082fd3-5420-4d26-9777-3e3e9d2eb327" name="tenxun" url="http://129.211.60.146">
+        <fileTransfer rootFolder="/home/html" accessType="SFTP" host="129.211.60.146" port="22" sshConfigId="33e962ac-56eb-42bd-a5b7-952eec924ae2" sshConfig="root@129.211.60.146:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
