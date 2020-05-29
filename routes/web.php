@@ -35,4 +35,6 @@ Route::get('email/resend', 'Auth\VerificationController@resend')->name('verifica
 Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
 Route::post('register', 'Auth\RegisterController@register');
 
+Route::resource('users', 'usersController', ['only' => ['show', 'update', 'edit']]);
+
 
