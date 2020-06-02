@@ -8,7 +8,7 @@
 
         <div class="col-lg-3 col-md-3 hidden-sm hidden-xs user-info">
             <div class="card ">
-                <img class="card-img-top" src="1.jpg" alt="Ruoning">
+                <img class="card-img-top" src="http://xy.liruoning.cn/1.png" alt="Ruoning">
                 <div class="card-body"><h5><strong>个人简介</strong></h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                     <hr>
@@ -30,7 +30,8 @@
                         <div class="card ">
                             <div class="card-body">
                                 <h1 class="mb-0" style="font-size:22px;">{{ $user->name }}
-                                    <small>{{ $user->email }}</small></h1>
+                                    <small>{{ $user->email }}</small>
+                                </h1>
                             </div>
                         </div>
                         <hr>
