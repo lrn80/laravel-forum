@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Handlers\ImageUploadHandler;
 use App\Handlers\php;
 use App\Http\Requests\UserRequest;
+use App\Models\Topic;
 use App\Models\User;
 class UsersController extends Controller
 {
@@ -41,4 +42,5 @@ class UsersController extends Controller
         $user->update($data);
         return redirect()->route('users.show', $user->id)->with('success', '个人资料更新成功！');
     }
+
 }
