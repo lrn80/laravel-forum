@@ -17,12 +17,12 @@
                 <div class="card-header bg-transparent">
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link active" href=" {{active_class( ! if_query('order', 'recent'))}}">
                                 最后回复
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="{{ active_class(if_query('order', 'recent')) }}">
                                 最新发布
                             </a>
                         </li>
