@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Handlers\ImageUploadHandler;
 use App\Handlers\php;
+use App\Http\Requests\Request;
 use App\Http\Requests\UserRequest;
 use App\Models\Topic;
 use App\Models\User;
