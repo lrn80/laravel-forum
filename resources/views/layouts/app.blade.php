@@ -7,6 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title', 'forum') - 学习交流论坛</title>
+    <meta name="description" content="@yield('description', setting('seo_description', '共同学习共同进步'))" />
+    <meta name="keyword" content="@yield('keyword', setting('seo_keyword', '社区,论坛,开发者论坛'))" />
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
